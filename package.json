@@ -1,0 +1,26 @@
+{
+"name": "cowherdafhenerator",
+"version": "1.0.0",
+"description": "This simple JavaScript script generates a herd of cows in a pastoral setting. It creates random cows with different colors and ages and describes them in the console.",
+"main": "index.js",
+"scripts": {},
+"repository": {
+"type": "git",
+"url": "https://github.com/Dani1711/CowHerdGenerator.git"
+},
+"keywords": [
+"sample",
+"npm",
+"package"
+],
+"author": "Dani1711",
+"license": "MIT",
+"dependencies": {
+"lodash": "^4.17.21",
+"axios": "^0.21.1"
+},
+"peerDependencies": {
+"react": ">=16.8.0",
+"react-dom": ">=16.8.0"
+}
+}
