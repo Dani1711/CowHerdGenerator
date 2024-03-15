@@ -1,23 +1,28 @@
+## Cow Herd Generator
 
-Cow Herd Generator
-This simple JavaScript script generates a herd of cows in a pastoral setting. It creates random cows with different colors and ages and describes them in the console.
+### Description
+This is a simple JavaScript script that generates a herd of cows and a flock of chickens. It randomly assigns names, colors, and ages to each animal and then describes them.
 
-Usage
-To use this script, simply run node index.js in your terminal. It will output the description of the cow herd.
+### Cow Generation
+The script generates a herd of cows by randomly selecting names, colors, and ages from predefined lists. Each cow is then instantiated with these attributes and added to the herd.
 
-Description
-The script consists of a few components:
+### Chicken Generation
+Similarly, the script also generates a flock of chickens using predefined lists of names, colors, and ages. Each chicken is instantiated with these attributes and added to the flock.
 
-Cow Class: This class represents a single cow. It has properties like name, color, and age, and a method to describe the cow.
+### Running the Script
+To run the script, simply execute the `main` function. This will generate the cow herd and chicken flock and display their descriptions in the console.
 
-Helper Function: getRandomNumber(min, max) is a utility function used to generate random numbers within a specified range.
+### Example Output
+#### Cow Herd
+- A black cow, 8 years old, named Bessie.
+- A brown cow, 6 years old, named Spot.
+- A white cow, 10 years old, named Daisy.
 
-Cow Herd Generation Function: generateCowHerd(numCows) generates a herd of cows with random names, colors, and ages.
+#### Chicken Flock
+- A white chicken, 12 months old, named Penny.
+- A brown chicken, 8 months old, named Nugget.
+- A black chicken, 18 months old, named Cluck Cluck.
 
-Main Program: The main() function orchestrates the generation of the cow herd and outputs their descriptions.
+## Additional Notes
+This script is for demonstration purposes and can be customized further as needed.
 
-Dependencies
-This script doesn't have any external dependencies.
-
-License
-This script is provided under the MIT License.
