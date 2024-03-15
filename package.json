@@ -1,26 +1,41 @@
 {
-"name": "cowherdafhenerator",
-"version": "1.0.0",
-"description": "This simple JavaScript script generates a herd of cows in a pastoral setting. It creates random cows with different colors and ages and describes them in the console.",
-"main": "index.js",
-"scripts": {},
-"repository": {
-"type": "git",
-"url": "https://github.com/Dani1711/CowHerdGenerator.git"
-},
-"keywords": [
-"sample",
-"npm",
-"package"
-],
-"author": "Dani1711",
-"license": "MIT",
-"dependencies": {
-"lodash": "^4.17.21",
-"axios": "^0.21.1"
-},
-"peerDependencies": {
-"react": ">=16.8.0",
-"react-dom": ">=16.8.0"
-}
+  "name": "cowherdafhenerator",
+  "version": "2.1.2",
+  "description": "This simple JavaScript script generates a herd of cows in a pastoral setting. It creates random cows with different colors and ages and describes them in the console.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dani1711/CowHerdGenerator.git"
+  },
+  "keywords": [
+    "sample",
+    "npm",
+    "package",
+    "tea",
+    "drink",
+    "brew",
+    "beverage",
+    "chai",
+    "oolong"
+  ],
+  "author": "Dani1711",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "axios": "^0.21.1",
+    "tea-types": "^1.0.0",
+    "tea-parser": "^2.5.0",
+    "tea-utils": "^0.8.3",
+    "tea-generator": "^3.2.1",
+    "tea-validator": "^1.3.0",
+    "tea-converter": "^0.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "tea-core": "^2.0.0",
+    "tea-interface": "^1.1.0",
+    "tea-styles": "^3.7.2"
+  }
 }
